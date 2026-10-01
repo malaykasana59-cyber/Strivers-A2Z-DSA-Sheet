@@ -92,7 +92,7 @@ describe('Algorithm Visualizer Engine', () => {
       const nums = [10, 20, 30, 40];
       const steps = simulateArrayStepper(nums);
 
-      assert.equal(steps.length, nums.length + 1); // initial state + N steps
+      assert.equal(steps.length, nums.length + 2); // initial state + N items + completion step
       assert.equal(steps[1].currentIndex, 0);
       assert.equal(steps[steps.length - 1].isComplete, true);
     });
