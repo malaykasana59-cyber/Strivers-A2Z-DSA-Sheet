@@ -1,87 +1,72 @@
-# takeuforward-for-free (Striver's A2Z DSA Sheet — OG Edition)
+# takeuforward-for-free
 
-> Clean, distraction-free, zero-bloatware website containing all 369 DSA problems from Striver's A2Z DSA Sheet with Brute -> Better -> Optimal algorithm solutions, interactive algorithm visualizers, and offline progress tracking.
+A focused, distraction-free learning companion for Striver's A2Z DSA Sheet.
+The repository contains the original C++ solutions and a static website for
+studying problems, approaches, complexity, and progress in one place.
 
----
+## Features
 
-## ✨ Features
+- Coverage of the A2Z sheet across 16 DSA topics and their subtopics.
+- Problem statements, approaches, C++ solutions, and time and space complexity.
+- Brute, better, and optimal solution explanations where available.
+- Search by problem name or concept.
+- Filters by topic, difficulty, and completion status.
+- Interactive visualizers for selected algorithms, including Kadane's
+  Algorithm, Binary Search, Two Sum, Dutch National Flag, Majority Element,
+  and array pointer movement.
+- Local progress tracking, bookmarks, and personal notes using browser storage.
+- Dark and light display modes.
 
-- **OG-Focused & Clean**: Zero bloatware, zero ads, zero tracking, blazing fast performance.
-- **Complete A2Z Sheet Coverage**: 369 problems across all 16 topics and subtopics.
-- **Brute -> Better -> Optimal Solutions**: Structured learning order with step-by-step algorithms, C++ code, and Time/Space complexity badges.
-- **Interactive Visualization Box**: Step-by-step interactive algorithm simulator (Kadane's Algorithm, Binary Search, Two Sum, Dutch National Flag, Majority Element, Array Pointer Stepper) with Play, Pause, Step Forward/Back, Speed controls, and custom input testing.
-- **Progress Tracking & Persistence**: Check off solved problems, bookmark questions for revision, and take personal notes saved locally in `localStorage`.
-- **Instant Search & Multi-Filters**: Instant search by problem name or concept, filter by topic, difficulty (Easy, Medium, Hard), or completion status.
-- **Dark & Light Mode**: Default OG dark theme with one-click toggle to clean light mode.
-- **Zero-CORS & Easily Hostable**: Fully static frontend that runs offline, via `file:///` double-click, or deployed on any static web host in seconds.
+## Local Usage
 
----
+The website is a static application and can be used locally without a backend.
 
-## 🚀 Quick Start / Local Setup
+### Open directly
 
-### 1. Directly Open in Browser (Zero Server Needed)
-You can simply open `index.html` directly in any web browser! The application includes a fallback data loader (`data/problems.js`) that bypasses CORS restrictions when opening via `file:///`.
+Open `index.html` in a browser.
 
-### 2. Local Static HTTP Server
+### Use a local server
+
+From the repository root, run:
+
 ```bash
-# Using Python
 python3 -m http.server 8080
-
-# Or using npm
-npm start
 ```
-Then visit `http://localhost:8080` in your browser.
 
----
+Then open `http://localhost:8080` in a browser.
 
-## 🌐 Easy Hosting
+## Update the Dataset
 
-Because `takeuforward-for-free` is a 100% static web app, it can be hosted for free on:
+When C++ solution files are added or changed, rebuild the generated problem
+data:
 
-### GitHub Pages
-1. Go to your repository settings on GitHub.
-2. In the **Pages** tab, select the `main` branch as the source and root directory (`/`).
-3. Save, and your website will be live at `https://<your-username>.github.io/<repo-name>/`.
-
-### Vercel / Netlify / Cloudflare Pages
-- Connect your GitHub repository to Vercel, Netlify, or Cloudflare Pages.
-- Build command: `npm run build` (or leave empty).
-- Output directory: `.` (root directory).
-- Deploy!
-
----
-
-## 🛠 Rebuilding the Problem Dataset
-
-If you add new `.cpp` files or modify existing solutions:
 ```bash
 npm run build
 ```
-This runs `scripts/build_data.py`, scanning all 16 topic directories and re-generating both `data/problems.json` and `data/problems.js`.
 
----
+The data builder scans the topic directories and updates the generated problem
+data used by the website.
 
-## 🧪 Testing (TDD Workflow)
+## Run Tests
 
-The project includes an automated test suite verifying the problem parser, interactive visualizer state engines, and progress/search store:
+Run the automated test suite with:
+
 ```bash
 npm test
 ```
 
----
+## Repository Structure
 
-## 📂 Repository Structure
+- `01.Arrays/` through `16. Strings (Hard)/`: DSA problems and C++ solutions.
+- `index.html`: Main learning interface.
+- `css/`: Website styles and design tokens.
+- `js/`: Parsing, application state, visualizers, and UI logic.
+- `data/`: Generated problem datasets.
+- `scripts/build_data.py`: Dataset generation script.
+- `test/`: Automated tests.
 
-- `01.Arrays/` to `16. Strings (Hard)/`: All original DSA question and solution `.cpp` files
-- `css/style.css`: Minimalist OG stylesheet with CSS custom properties
-- `js/`:
-  - `parser.js`: C++ problem file parser
-  - `visualizer.js`: Interactive algorithm simulation engine
-  - `store.js`: LocalStorage state management and search/filtering
-  - `app.js`: Main application controller
-- `data/`:
-  - `problems.json`: Structured dataset of all 369 questions
-  - `problems.js`: Fallback script for zero-CORS browser execution
-- `scripts/build_data.py`: Compiler script extracting solutions and metadata
-- `test/`: TDD unit tests
-- `index.html`: Main web portal
+## Learning Note
+
+Try to solve each problem before reading the approach or code. The solutions
+are intended as a reference and learning aid, not as a replacement for
+understanding the underlying technique.
