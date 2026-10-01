@@ -1,35 +1,87 @@
-<h1>Striver's A2Z DSA Sheet</h1>
- contains everything related to Stiver's A2Z sheet along with question, approach and code.
- 
-Each topic has its own directory, which is further divided into difficulties containing the solutions to the problems within that category along with approach. The filenames correspond to the problem number or a brief description for easier identification.
+# takeuforward-for-free (Striver's A2Z DSA Sheet — OG Edition)
 
-<i>...cpp</i>
-<ul>
-    <li>Question: [Problem Statement]</li>
-    <li>Approach: [Brief explanation of the approach used]</li>
-    <li>Code: [C++ code of the following approach]</li>
-    <li>Time Complexity: [Time complexity analysis]</li>
-    <li>Space Complexity: [Space complexity analysis]</li>
-</ul>
+> Clean, distraction-free, zero-bloatware website containing all 369 DSA problems from Striver's A2Z DSA Sheet with Brute -> Better -> Optimal algorithm solutions, interactive algorithm visualizers, and offline progress tracking.
 
-<h2>Contribution guidelines</h2>
-Contributions to this repository are welcome. If you'd like to contribute your own solutions or suggest improvements, please follow these guidelines:
+---
 
-<p>
-    Fork the repository.
-    Create a new branch for your contributions: git checkout -b your-branch-name.
-    Make your changes and add your solutions.
-    Commit your changes with descriptive commit messages: git commit -m "Add solution to Problem X".
-    Push your changes to your forked repository: git push origin your-branch-name.
-    Open a pull request on the original repository, explaining the changes you made and why they should be merged.
-</p>
+## ✨ Features
 
-<h2>Disclamer</h2>
-The solutions in this repository are intended to serve as a reference and learning resource. It is recommended to understand the problem-solving techniques and attempt to solve the problems yourself before referring to the solutions.
+- **OG-Focused & Clean**: Zero bloatware, zero ads, zero tracking, blazing fast performance.
+- **Complete A2Z Sheet Coverage**: 369 problems across all 16 topics and subtopics.
+- **Brute -> Better -> Optimal Solutions**: Structured learning order with step-by-step algorithms, C++ code, and Time/Space complexity badges.
+- **Interactive Visualization Box**: Step-by-step interactive algorithm simulator (Kadane's Algorithm, Binary Search, Two Sum, Dutch National Flag, Majority Element, Array Pointer Stepper) with Play, Pause, Step Forward/Back, Speed controls, and custom input testing.
+- **Progress Tracking & Persistence**: Check off solved problems, bookmark questions for revision, and take personal notes saved locally in `localStorage`.
+- **Instant Search & Multi-Filters**: Instant search by problem name or concept, filter by topic, difficulty (Easy, Medium, Hard), or completion status.
+- **Dark & Light Mode**: Default OG dark theme with one-click toggle to clean light mode.
+- **Zero-CORS & Easily Hostable**: Fully static frontend that runs offline, via `file:///` double-click, or deployed on any static web host in seconds.
 
-<h2>Resources</h2>
-<a href="https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/">Striver's A2Z DSA Sheet
- 
-### ----- Consistency Matters -----
-![1000](https://github.com/Codensity30/Striver-s-A2Z-DSA-Sheet/assets/129579058/d23fb219-4930-4c1a-9e8d-fd18ab902cdc)
+---
 
+## 🚀 Quick Start / Local Setup
+
+### 1. Directly Open in Browser (Zero Server Needed)
+You can simply open `index.html` directly in any web browser! The application includes a fallback data loader (`data/problems.js`) that bypasses CORS restrictions when opening via `file:///`.
+
+### 2. Local Static HTTP Server
+```bash
+# Using Python
+python3 -m http.server 8080
+
+# Or using npm
+npm start
+```
+Then visit `http://localhost:8080` in your browser.
+
+---
+
+## 🌐 Easy Hosting
+
+Because `takeuforward-for-free` is a 100% static web app, it can be hosted for free on:
+
+### GitHub Pages
+1. Go to your repository settings on GitHub.
+2. In the **Pages** tab, select the `main` branch as the source and root directory (`/`).
+3. Save, and your website will be live at `https://<your-username>.github.io/<repo-name>/`.
+
+### Vercel / Netlify / Cloudflare Pages
+- Connect your GitHub repository to Vercel, Netlify, or Cloudflare Pages.
+- Build command: `npm run build` (or leave empty).
+- Output directory: `.` (root directory).
+- Deploy!
+
+---
+
+## 🛠 Rebuilding the Problem Dataset
+
+If you add new `.cpp` files or modify existing solutions:
+```bash
+npm run build
+```
+This runs `scripts/build_data.py`, scanning all 16 topic directories and re-generating both `data/problems.json` and `data/problems.js`.
+
+---
+
+## 🧪 Testing (TDD Workflow)
+
+The project includes an automated test suite verifying the problem parser, interactive visualizer state engines, and progress/search store:
+```bash
+npm test
+```
+
+---
+
+## 📂 Repository Structure
+
+- `01.Arrays/` to `16. Strings (Hard)/`: All original DSA question and solution `.cpp` files
+- `css/style.css`: Minimalist OG stylesheet with CSS custom properties
+- `js/`:
+  - `parser.js`: C++ problem file parser
+  - `visualizer.js`: Interactive algorithm simulation engine
+  - `store.js`: LocalStorage state management and search/filtering
+  - `app.js`: Main application controller
+- `data/`:
+  - `problems.json`: Structured dataset of all 369 questions
+  - `problems.js`: Fallback script for zero-CORS browser execution
+- `scripts/build_data.py`: Compiler script extracting solutions and metadata
+- `test/`: TDD unit tests
+- `index.html`: Main web portal

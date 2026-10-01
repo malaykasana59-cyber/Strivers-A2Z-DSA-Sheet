@@ -178,7 +178,7 @@ export function simulateBinarySearch(nums, target) {
 export function simulateTwoSum(nums, target) {
   if (!nums || nums.length === 0) return [];
   const steps = [];
-  const map = {};
+  const map = Object.create(null);
   let found = false;
   let pairIndices = [];
 
@@ -197,7 +197,7 @@ export function simulateTwoSum(nums, target) {
     const val = nums[i];
     const complement = target - val;
 
-    if (complement in map) {
+    if (map[complement] !== undefined) {
       found = true;
       pairIndices = [map[complement], i];
       steps.push({
