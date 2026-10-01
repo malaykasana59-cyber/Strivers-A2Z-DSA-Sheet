@@ -37,14 +37,25 @@ export function detectVisualizerType(filename, topic) {
   if (/binary_search|binary search/i.test(lower) && !/tree/i.test(lower)) return 'binary-search';
   if (/majority_element|majority element/i.test(lower)) return 'majority-element';
   if (/rotate_array|move_0|largest_element|second_largest|linear_search/i.test(lower)) return 'array-stepper';
-  if (/sliding_window|sliding window/i.test(lower)) return 'array-stepper';
+  if (/sliding_window|sliding window|substring|consecutive|fruit/i.test(lower)) return 'sliding-window';
   if (/linked list/i.test(lower)) return 'linked-list';
   if (/stack|queue/i.test(lower)) return 'stack-queue';
+  if (/binary search tree|bst/i.test(lower)) return 'binary-search-tree';
+  if (/binary tree|tree/i.test(lower)) return 'binary-tree';
+  if (/graph|bfs|dfs|dijkstra|topo|provinces|islands|cycle/i.test(lower)) return 'graph-traversal';
+  if (/unique path|minimum path|knapsack|lcs|common subsequence|matrix|grid|dynamic programming|dp/i.test(lower)) return 'dp-grid';
+  if (/heap|priority/i.test(lower)) return 'heap-priority-queue';
+  if (/greedy|meeting|interval|platform|job|cookie|lemonade|candy|jump/i.test(lower)) return 'greedy-intervals';
+  if (/trie/i.test(lower)) return 'trie-prefix-tree';
+  if (/kmp|z_algorithm|rabin|lps|prefix|strings \(hard\)/i.test(lower)) return 'string-matching-kmp';
+  if (/recursion|subset|combination|queens|maze|partitioning|sudoku/i.test(lower)) return 'recursion-tree';
+  if (/bit|xor|sieve|power/i.test(lower)) return 'bit-manipulation';
+  if (/strings|string/i.test(lower)) return 'string-algo';
 
-  // Fallback to array-stepper for Array topic
+  // Fallback to array-stepper for Array topic or default
   if (/arrays/i.test(lower)) return 'array-stepper';
 
-  return null;
+  return 'array-stepper';
 }
 
 export function inferDifficulty(subtopic, filename) {

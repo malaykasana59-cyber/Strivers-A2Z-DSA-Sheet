@@ -71,15 +71,39 @@ def detect_visualizer_type(filename, topic):
         return "binary-search"
     if "majority_element" in lower or "majority element" in lower:
         return "majority-element"
-    if any(k in lower for k in ["rotate_array", "move_0", "largest_element", "second_largest", "linear_search", "sliding_window"]):
+    if any(k in lower for k in ["rotate_array", "move_0", "largest_element", "second_largest", "linear_search"]):
         return "array-stepper"
+    if "sliding window" in lower or "sliding_window" in lower or any(k in lower for k in ["substring", "consecutive", "fruit"]):
+        return "sliding-window"
     if "linked list" in lower:
         return "linked-list"
     if "stack" in lower or "queue" in lower:
         return "stack-queue"
+    if "binary search tree" in lower or "bst" in lower:
+        return "binary-search-tree"
+    if "binary tree" in lower or "tree" in lower:
+        return "binary-tree"
+    if "graph" in lower or any(k in lower for k in ["bfs", "dfs", "dijkstra", "topo", "provinces", "islands", "cycle"]):
+        return "graph-traversal"
+    if any(k in lower for k in ["unique path", "minimum path", "knapsack", "lcs", "common subsequence", "matrix", "grid"]) or "dynamic programming" in lower:
+        return "dp-grid"
+    if "heap" in lower or "priority" in lower:
+        return "heap-priority-queue"
+    if "greedy" in lower or any(k in lower for k in ["meeting", "interval", "platform", "job", "cookie", "lemonade", "candy", "jump"]):
+        return "greedy-intervals"
+    if "trie" in lower:
+        return "trie-prefix-tree"
+    if any(k in lower for k in ["kmp", "z_algorithm", "rabin", "lps", "prefix"]) or "strings (hard)" in lower:
+        return "string-matching-kmp"
+    if "recursion" in lower or any(k in lower for k in ["subset", "combination", "queens", "maze", "partitioning", "sudoku"]):
+        return "recursion-tree"
+    if "bit" in lower or any(k in lower for k in ["xor", "sieve", "power"]):
+        return "bit-manipulation"
+    if "strings" in lower or "string" in lower:
+        return "string-algo"
     if "arrays" in lower:
         return "array-stepper"
-    return None
+    return "array-stepper"
 
 def extract_complexities(text):
     tc = "O(N)"
@@ -239,6 +263,13 @@ def main():
     # Output JSON file
     json_path = os.path.join(DATA_DIR, "problems.json")
     with open(json_path, "w", encoding="utf-8") as f:
+        json.dump(all_problems, f, indent=2)
+
+    # Output to src/data/problems.json for React/Vite application
+    src_data_dir = os.path.join(ROOT_DIR, "src", "data")
+    os.makedirs(src_data_dir, exist_ok=True)
+    src_json_path = os.path.join(src_data_dir, "problems.json")
+    with open(src_json_path, "w", encoding="utf-8") as f:
         json.dump(all_problems, f, indent=2)
 
     # Output JS file (for zero-CORS file:/// compatibility)

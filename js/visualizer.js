@@ -705,3 +705,14 @@ export class VisualizerController {
     this.pause();
   }
 }
+
+// Re-export all modern visualizer engines for unified access
+export { simulateStringAlgo } from '../src/visualizer/engines/stringAlgo.js';
+export { simulateRecursionTree } from '../src/visualizer/engines/recursionTree.js';
+export { simulateBitManipulation } from '../src/visualizer/engines/bitManipulation.js';
+export { simulateHeapPriorityQueue } from '../src/visualizer/engines/heapPriorityQueue.js';
+export { simulateGreedyIntervals } from '../src/visualizer/engines/greedyIntervals.js';
+export { simulateTriePrefixTree } from '../src/visualizer/engines/triePrefixTree.js';
+export { simulateStringMatchingKmp } from '../src/visualizer/engines/stringMatchingKmp.js';
+export { simulateBinarySearchTree } from '../src/visualizer/engines/binarySearchTree.js';
+

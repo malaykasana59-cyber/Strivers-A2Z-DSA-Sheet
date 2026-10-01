@@ -240,7 +240,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": "array-stepper"
+    "visualizationType": "sliding-window"
   },
   {
     "id": "01-arrays-1-easy-12-longest-subarray-with-given-sum-cpp",
@@ -504,7 +504,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": "array-stepper"
+    "visualizationType": "sliding-window"
   },
   {
     "id": "01-arrays-2-medium-11-set-matrix-0-s-cpp",
@@ -526,7 +526,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": "array-stepper"
+    "visualizationType": "dp-grid"
   },
   {
     "id": "01-arrays-2-medium-12-rotate-matrix-cpp",
@@ -548,7 +548,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": "array-stepper"
+    "visualizationType": "dp-grid"
   },
   {
     "id": "01-arrays-2-medium-13-spiral-traversal-cpp",
@@ -702,7 +702,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": "array-stepper"
+    "visualizationType": "bit-manipulation"
   },
   {
     "id": "01-arrays-3-hard-07-merge-overlapping-subinterval-cpp",
@@ -724,7 +724,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": "array-stepper"
+    "visualizationType": "greedy-intervals"
   },
   {
     "id": "01-arrays-3-hard-08-merge-2-sorted-array-without-space-cpp",
@@ -1560,7 +1560,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "string-algo"
   },
   {
     "id": "03-strings-1-easy-02-reverse-words-in-string-cpp",
@@ -1582,7 +1582,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "string-algo"
   },
   {
     "id": "03-strings-1-easy-03-largest-odd-number-in-string-cpp",
@@ -1604,7 +1604,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "string-algo"
   },
   {
     "id": "03-strings-1-easy-04-longest-common-prefix-cpp",
@@ -1626,7 +1626,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "string-matching-kmp"
   },
   {
     "id": "03-strings-1-easy-05-isomorphic-string-cpp",
@@ -1648,7 +1648,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "string-algo"
   },
   {
     "id": "03-strings-1-easy-06-check-for-rotated-string-cpp",
@@ -1670,7 +1670,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "string-algo"
   },
   {
     "id": "03-strings-1-easy-07-valid-anagram-cpp",
@@ -1692,7 +1692,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "string-algo"
   },
   {
     "id": "03-strings-2-medium-01-sort-characters-by-frequency-cpp",
@@ -1714,7 +1714,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "string-algo"
   },
   {
     "id": "03-strings-2-medium-02-max-nesting-depth-of-parenthesis-cpp",
@@ -1736,7 +1736,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "string-algo"
   },
   {
     "id": "03-strings-2-medium-03-roman-to-integer-cpp",
@@ -1758,7 +1758,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "string-algo"
   },
   {
     "id": "03-strings-2-medium-04-implement-atoi-cpp",
@@ -1780,7 +1780,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "string-algo"
   },
   {
     "id": "03-strings-2-medium-05-count-the-number-of-substrings-with-k-unique-characters-cpp",
@@ -1802,7 +1802,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "sliding-window"
   },
   {
     "id": "03-strings-2-medium-06-longest-palindromic-substring-cpp",
@@ -1824,7 +1824,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "sliding-window"
   },
   {
     "id": "03-strings-2-medium-07-sum-of-beauty-of-all-substrings-cpp",
@@ -1846,7 +1846,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "sliding-window"
   },
   {
     "id": "04-linked-list-1-single-linked-list-01-intro-to-linked-list-cpp",
@@ -2506,7 +2506,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "recursion-tree"
   },
   {
     "id": "05-recursion-1-get-strong-hold-02-count-good-numbers-cpp",
@@ -2528,7 +2528,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "recursion-tree"
   },
   {
     "id": "05-recursion-1-get-strong-hold-03-reverse-stack-using-recursion-cpp",
@@ -2594,7 +2594,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "recursion-tree"
   },
   {
     "id": "05-recursion-2-subsequences-pattern-02-power-set-cpp",
@@ -2616,7 +2616,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "recursion-tree"
   },
   {
     "id": "05-recursion-2-subsequences-pattern-03-count-distinct-substrings-cpp",
@@ -2638,7 +2638,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "sliding-window"
   },
   {
     "id": "05-recursion-2-subsequences-pattern-04-count-subsets-with-sum-equal-to-k-cpp",
@@ -2660,7 +2660,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "recursion-tree"
   },
   {
     "id": "05-recursion-2-subsequences-pattern-05-subset-1-cpp",
@@ -2682,7 +2682,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "recursion-tree"
   },
   {
     "id": "05-recursion-2-subsequences-pattern-06-subset-2-cpp",
@@ -2704,7 +2704,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "recursion-tree"
   },
   {
     "id": "05-recursion-2-subsequences-pattern-07-combination-sum-1-cpp",
@@ -2726,7 +2726,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "recursion-tree"
   },
   {
     "id": "05-recursion-2-subsequences-pattern-08-combination-sum-2-cpp",
@@ -2748,7 +2748,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "recursion-tree"
   },
   {
     "id": "05-recursion-2-subsequences-pattern-09-combination-sum-3-cpp",
@@ -2770,7 +2770,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "recursion-tree"
   },
   {
     "id": "05-recursion-2-subsequences-pattern-10-letter-combinations-of-phone-cpp",
@@ -2792,7 +2792,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "recursion-tree"
   },
   {
     "id": "05-recursion-3-try-out-all-combos-01-palindrome-partioning-cpp",
@@ -2814,7 +2814,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "recursion-tree"
   },
   {
     "id": "05-recursion-3-try-out-all-combos-02-word-search-in-grid-cpp",
@@ -2836,7 +2836,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "05-recursion-3-try-out-all-combos-03-rat-in-maze-cpp",
@@ -2858,7 +2858,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "recursion-tree"
   },
   {
     "id": "05-recursion-3-try-out-all-combos-04-m-coloring-problem-cpp",
@@ -2880,7 +2880,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "recursion-tree"
   },
   {
     "id": "05-recursion-3-try-out-all-combos-05-n-queens-cpp",
@@ -2902,7 +2902,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "recursion-tree"
   },
   {
     "id": "05-recursion-3-try-out-all-combos-06-word-break-cpp",
@@ -2924,7 +2924,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "recursion-tree"
   },
   {
     "id": "05-recursion-3-try-out-all-combos-07-sudoku-solver-cpp",
@@ -2946,7 +2946,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "recursion-tree"
   },
   {
     "id": "06-bit-manipulation-1-learn-bit-manipulation-01-bit-manipulation-cpp",
@@ -2968,7 +2968,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "bit-manipulation"
   },
   {
     "id": "06-bit-manipulation-1-learn-bit-manipulation-02-check-for-the-ith-bit-cpp",
@@ -2990,7 +2990,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "bit-manipulation"
   },
   {
     "id": "06-bit-manipulation-1-learn-bit-manipulation-03-check-for-odd-even-cpp",
@@ -3012,7 +3012,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "bit-manipulation"
   },
   {
     "id": "06-bit-manipulation-1-learn-bit-manipulation-04-check-for-the-power-of-2-cpp",
@@ -3034,7 +3034,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "bit-manipulation"
   },
   {
     "id": "06-bit-manipulation-1-learn-bit-manipulation-05-set-the-righmost-unset-bit-cpp",
@@ -3056,7 +3056,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "bit-manipulation"
   },
   {
     "id": "06-bit-manipulation-1-learn-bit-manipulation-06-swap-two-numbers-without-temporary-variable-cpp",
@@ -3078,7 +3078,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "bit-manipulation"
   },
   {
     "id": "06-bit-manipulation-1-learn-bit-manipulation-07-divide-two-numbers-using-bit-maipulation-cpp",
@@ -3100,7 +3100,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "bit-manipulation"
   },
   {
     "id": "06-bit-manipulation-1-learn-bit-manipulation-08-count-set-bit-from-numbers-1-to-n-cpp",
@@ -3122,7 +3122,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "bit-manipulation"
   },
   {
     "id": "06-bit-manipulation-2-interview-problems-01-minimum-bit-flips-cpp",
@@ -3144,7 +3144,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "bit-manipulation"
   },
   {
     "id": "06-bit-manipulation-2-interview-problems-02-exceptionally-odd-cpp",
@@ -3166,7 +3166,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "bit-manipulation"
   },
   {
     "id": "06-bit-manipulation-2-interview-problems-03-xor-of-numbers-from-l-to-r-cpp",
@@ -3188,7 +3188,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "bit-manipulation"
   },
   {
     "id": "06-bit-manipulation-3-advanced-maths-01-prime-factors-of-number-cpp",
@@ -3210,7 +3210,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "bit-manipulation"
   },
   {
     "id": "06-bit-manipulation-3-advanced-maths-02-all-divisors-of-number-cpp",
@@ -3232,7 +3232,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "bit-manipulation"
   },
   {
     "id": "06-bit-manipulation-3-advanced-maths-03-sieve-of-eratosthenes-cpp",
@@ -3254,7 +3254,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "bit-manipulation"
   },
   {
     "id": "06-bit-manipulation-3-advanced-maths-04-prime-factorization-using-sieve-cpp",
@@ -3276,7 +3276,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "bit-manipulation"
   },
   {
     "id": "06-bit-manipulation-3-advanced-maths-05-fast-power-cpp",
@@ -3298,7 +3298,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "bit-manipulation"
   },
   {
     "id": "07-stack-and-queues-1-learning-01-implement-stack-using-array-cpp",
@@ -3826,7 +3826,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": "stack-queue"
+    "visualizationType": "sliding-window"
   },
   {
     "id": "07-stack-and-queues-4-implementation-02-stock-span-problem-cpp",
@@ -3914,7 +3914,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "sliding-window"
   },
   {
     "id": "08-sliding-window-1-medium-problems-02-max-consecutive-1-s-cpp",
@@ -3936,7 +3936,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "sliding-window"
   },
   {
     "id": "08-sliding-window-1-medium-problems-03-fruit-into-baskets-cpp",
@@ -3958,7 +3958,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "sliding-window"
   },
   {
     "id": "08-sliding-window-1-medium-problems-04-longest-repeating-character-cpp",
@@ -3980,7 +3980,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "sliding-window"
   },
   {
     "id": "08-sliding-window-1-medium-problems-05-binary-subarrays-with-sum-cpp",
@@ -4002,7 +4002,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": "array-stepper"
+    "visualizationType": "sliding-window"
   },
   {
     "id": "08-sliding-window-1-medium-problems-06-count-the-number-of-nice-subarrays-cpp",
@@ -4024,7 +4024,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": "array-stepper"
+    "visualizationType": "sliding-window"
   },
   {
     "id": "08-sliding-window-1-medium-problems-07-number-of-substrings-containing-all-3-characters-cpp",
@@ -4046,7 +4046,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "sliding-window"
   },
   {
     "id": "08-sliding-window-1-medium-problems-08-maximum-points-you-can-obtaln-form-the-card-cpp",
@@ -4068,7 +4068,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "sliding-window"
   },
   {
     "id": "08-sliding-window-2-hard-problems-01-longest-substring-with-at-most-k-unique-characters-cpp",
@@ -4090,7 +4090,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "sliding-window"
   },
   {
     "id": "08-sliding-window-2-hard-problems-02-count-the-number-of-substrings-with-exactly-k-unique-characters-cpp",
@@ -4112,7 +4112,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "sliding-window"
   },
   {
     "id": "08-sliding-window-2-hard-problems-03-minimum-window-substring-cpp",
@@ -4134,7 +4134,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "sliding-window"
   },
   {
     "id": "09-heaps-1-learning-01-implement-min-heap-cpp",
@@ -4156,7 +4156,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "heap-priority-queue"
   },
   {
     "id": "09-heaps-1-learning-02-check-if-array-is-heap-cpp",
@@ -4178,7 +4178,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "heap-priority-queue"
   },
   {
     "id": "09-heaps-1-learning-03-convert-min-heap-to-max-heap-cpp",
@@ -4200,7 +4200,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "heap-priority-queue"
   },
   {
     "id": "09-heaps-2-medium-problems-01-kth-largest-element-cpp",
@@ -4222,7 +4222,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "heap-priority-queue"
   },
   {
     "id": "09-heaps-2-medium-problems-02-kth-smallest-element-cpp",
@@ -4244,7 +4244,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "heap-priority-queue"
   },
   {
     "id": "09-heaps-2-medium-problems-03-merge-k-sorted-arrays-cpp",
@@ -4266,7 +4266,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": "array-stepper"
+    "visualizationType": "heap-priority-queue"
   },
   {
     "id": "09-heaps-2-medium-problems-04-merge-k-sorted-lists-cpp",
@@ -4288,7 +4288,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "heap-priority-queue"
   },
   {
     "id": "09-heaps-2-medium-problems-05-arrange-by-rank-cpp",
@@ -4310,7 +4310,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "heap-priority-queue"
   },
   {
     "id": "09-heaps-2-medium-problems-06-task-scheduler-cpp",
@@ -4332,7 +4332,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "heap-priority-queue"
   },
   {
     "id": "09-heaps-2-medium-problems-07-divide-array-into-sets-of-k-consecutive-number-cpp",
@@ -4354,7 +4354,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "sliding-window"
   },
   {
     "id": "09-heaps-3-hard-problems-01-design-twitter-cpp",
@@ -4376,7 +4376,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "heap-priority-queue"
   },
   {
     "id": "09-heaps-3-hard-problems-02-minimum-cost-to-join-n-ropes-cpp",
@@ -4398,7 +4398,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "heap-priority-queue"
   },
   {
     "id": "09-heaps-3-hard-problems-03-kth-largest-element-in-stream-cpp",
@@ -4420,7 +4420,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "heap-priority-queue"
   },
   {
     "id": "09-heaps-3-hard-problems-04-maximum-k-sum-combinations-cpp",
@@ -4442,7 +4442,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "heap-priority-queue"
   },
   {
     "id": "09-heaps-3-hard-problems-05-median-in-a-stream-cpp",
@@ -4464,7 +4464,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "heap-priority-queue"
   },
   {
     "id": "09-heaps-3-hard-problems-06-top-k-frequent-elements-cpp",
@@ -4486,7 +4486,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "heap-priority-queue"
   },
   {
     "id": "10-greedy-approach-1-easy-01-assign-cookies-cpp",
@@ -4508,7 +4508,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "greedy-intervals"
   },
   {
     "id": "10-greedy-approach-1-easy-02-fractional-knapsack-cpp",
@@ -4530,7 +4530,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "10-greedy-approach-1-easy-03-lemonade-exchange-cpp",
@@ -4552,7 +4552,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "greedy-intervals"
   },
   {
     "id": "10-greedy-approach-1-easy-04-valid-parenthesis-string-cpp",
@@ -4574,7 +4574,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "greedy-intervals"
   },
   {
     "id": "10-greedy-approach-2-medium-01-n-meetings-in-one-room-cpp",
@@ -4596,7 +4596,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "greedy-intervals"
   },
   {
     "id": "10-greedy-approach-2-medium-02-jump-game-cpp",
@@ -4618,7 +4618,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "greedy-intervals"
   },
   {
     "id": "10-greedy-approach-2-medium-03-jump-game-2-cpp",
@@ -4640,7 +4640,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "greedy-intervals"
   },
   {
     "id": "10-greedy-approach-2-medium-04-minimum-platforms-cpp",
@@ -4662,7 +4662,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "greedy-intervals"
   },
   {
     "id": "10-greedy-approach-2-medium-05-job-sequencing-problem-cpp",
@@ -4684,7 +4684,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "greedy-intervals"
   },
   {
     "id": "10-greedy-approach-2-medium-06-candy-cpp",
@@ -4706,7 +4706,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "greedy-intervals"
   },
   {
     "id": "10-greedy-approach-2-medium-07-insert-interval-cpp",
@@ -4728,7 +4728,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "greedy-intervals"
   },
   {
     "id": "10-greedy-approach-2-medium-08-non-overlapping-intervals-cpp",
@@ -4750,7 +4750,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "greedy-intervals"
   },
   {
     "id": "11-binary-trees-1-traversals-01-introduction-to-trees-cpp",
@@ -4772,7 +4772,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-1-traversals-02-binary-tree-representation-cpp",
@@ -4794,7 +4794,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-1-traversals-03-preorder-traversal-cpp",
@@ -4816,7 +4816,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-1-traversals-04-inorder-traversal-cpp",
@@ -4838,7 +4838,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-1-traversals-05-postorder-traversal-cpp",
@@ -4860,7 +4860,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-1-traversals-06-level-order-traversal-cpp",
@@ -4882,7 +4882,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-1-traversals-07-iterative-preorder-traversal-cpp",
@@ -4904,7 +4904,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-1-traversals-08-iterative-inorder-traversal-cpp",
@@ -4926,7 +4926,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-1-traversals-09-iterative-postorder-cpp",
@@ -4948,7 +4948,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-1-traversals-10-all-in-one-traversal-cpp",
@@ -4970,7 +4970,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-2-medium-problems-01-height-of-binary-tree-cpp",
@@ -4992,7 +4992,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-2-medium-problems-02-balanced-binary-tree-cpp",
@@ -5014,7 +5014,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-2-medium-problems-03-diameter-of-binary-tree-cpp",
@@ -5036,7 +5036,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-2-medium-problems-04-maximum-path-sum-cpp",
@@ -5058,7 +5058,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-2-medium-problems-05-same-tree-cpp",
@@ -5080,7 +5080,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-2-medium-problems-06-zig-zag-traversal-cpp",
@@ -5102,7 +5102,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-2-medium-problems-07-boundary-traversal-cpp",
@@ -5124,7 +5124,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-2-medium-problems-08-vertical-order-traversal-cpp",
@@ -5146,7 +5146,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-2-medium-problems-09-top-view-cpp",
@@ -5168,7 +5168,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-2-medium-problems-10-bottom-view-cpp",
@@ -5190,7 +5190,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-2-medium-problems-11-left-or-right-view-cpp",
@@ -5212,7 +5212,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-2-medium-problems-12-symmetric-tree-cpp",
@@ -5234,7 +5234,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-3-hard-01-all-root-to-leaf-paths-cpp",
@@ -5256,7 +5256,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-3-hard-02-lowest-common-ancestor-cpp",
@@ -5278,7 +5278,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-3-hard-03-max-width-of-binary-tree-cpp",
@@ -5300,7 +5300,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-3-hard-04-check-children-sum-property-cpp",
@@ -5322,7 +5322,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-3-hard-05-all-nodes-at-distance-k-cpp",
@@ -5344,7 +5344,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-3-hard-06-min-time-to-burn-binary-tree-cpp",
@@ -5366,7 +5366,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-3-hard-07-count-nodes-in-complete-binary-tree-cpp",
@@ -5388,7 +5388,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-3-hard-08-construct-bt-from-inorder-and-preorder-cpp",
@@ -5410,7 +5410,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-3-hard-09-construct-bt-from-inorder-and-postorder-cpp",
@@ -5432,7 +5432,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-3-hard-11-morris-preorder-traversal-cpp",
@@ -5454,7 +5454,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-3-hard-12-morris-inorder-traversal-cpp",
@@ -5476,7 +5476,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-3-hard-13-flatten-binary-tree-cpp",
@@ -5498,7 +5498,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "11-binary-trees-3-hard-14-serialize-and-deserialize-cpp",
@@ -5520,7 +5520,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "12-binary-search-trees-1-concept-01-intro-to-bst-cpp",
@@ -5542,7 +5542,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-search-tree"
   },
   {
     "id": "12-binary-search-trees-1-concept-02-search-in-bst-cpp",
@@ -5564,7 +5564,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-search-tree"
   },
   {
     "id": "12-binary-search-trees-1-concept-03-minimum-value-in-bst-cpp",
@@ -5586,7 +5586,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-search-tree"
   },
   {
     "id": "12-binary-search-trees-2-practice-problems-01-ceil-in-bst-cpp",
@@ -5608,7 +5608,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-search-tree"
   },
   {
     "id": "12-binary-search-trees-2-practice-problems-02-floor-in-bst-cpp",
@@ -5630,7 +5630,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-search-tree"
   },
   {
     "id": "12-binary-search-trees-2-practice-problems-03-insert-into-bst-cpp",
@@ -5652,7 +5652,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-search-tree"
   },
   {
     "id": "12-binary-search-trees-2-practice-problems-04-delete-from-bst-cpp",
@@ -5674,7 +5674,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-search-tree"
   },
   {
     "id": "12-binary-search-trees-2-practice-problems-05-kth-smallest-element-in-bst-cpp",
@@ -5696,7 +5696,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-search-tree"
   },
   {
     "id": "12-binary-search-trees-2-practice-problems-06-validate-bst-cpp",
@@ -5718,7 +5718,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-search-tree"
   },
   {
     "id": "12-binary-search-trees-2-practice-problems-07-lca-in-bst-cpp",
@@ -5740,7 +5740,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-search-tree"
   },
   {
     "id": "12-binary-search-trees-2-practice-problems-08-build-bst-from-preorder-traversal-cpp",
@@ -5762,7 +5762,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-search-tree"
   },
   {
     "id": "12-binary-search-trees-2-practice-problems-09-bst-iterator-cpp",
@@ -5784,7 +5784,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-search-tree"
   },
   {
     "id": "12-binary-search-trees-2-practice-problems-10-two-sum-in-bst-cpp",
@@ -5828,7 +5828,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-search-tree"
   },
   {
     "id": "12-binary-search-trees-2-practice-problems-12-largest-bst-in-binary-tree-cpp",
@@ -5850,7 +5850,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-search-tree"
   },
   {
     "id": "13-graphs-1-learning-01-count-the-number-of-graphs-cpp",
@@ -5872,7 +5872,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-1-learning-02-graph-representation-cpp",
@@ -5894,7 +5894,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-1-learning-03-bfs-cpp",
@@ -5916,7 +5916,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-1-learning-04-dfs-cpp",
@@ -5938,7 +5938,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-2-traversal-problems-01-count-the-number-of-provinces-cpp",
@@ -5960,7 +5960,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-2-traversal-problems-02-rotten-oranges-cpp",
@@ -5982,7 +5982,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-2-traversal-problems-03-flood-fill-algorithm-cpp",
@@ -6004,7 +6004,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-2-traversal-problems-04-detect-cycle-in-undirected-graph-cpp",
@@ -6026,7 +6026,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-2-traversal-problems-05-01-matrix-cpp",
@@ -6048,7 +6048,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-2-traversal-problems-06-surrounded-regions-cpp",
@@ -6070,7 +6070,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-2-traversal-problems-07-number-of-enclaves-cpp",
@@ -6092,7 +6092,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-2-traversal-problems-08-word-ladder-cpp",
@@ -6114,7 +6114,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-2-traversal-problems-10-distinct-islands-cpp",
@@ -6136,7 +6136,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-2-traversal-problems-11-bipartite-graph-cpp",
@@ -6158,7 +6158,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-2-traversal-problems-12-detect-cycle-in-directed-graph-cpp",
@@ -6180,7 +6180,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-3-topo-sort-problems-01-topological-sorting-cpp",
@@ -6202,7 +6202,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-3-topo-sort-problems-02-kahn-s-algorithm-cpp",
@@ -6224,7 +6224,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-3-topo-sort-problems-03-course-scheduler-1-cpp",
@@ -6246,7 +6246,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-3-topo-sort-problems-04-course-scheduler-2-cpp",
@@ -6268,7 +6268,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-3-topo-sort-problems-05-find-eventual-safe-state-cpp",
@@ -6290,7 +6290,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-3-topo-sort-problems-06-alien-dictonary-cpp",
@@ -6312,7 +6312,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-4-shortest-path-problems-01-shortest-path-in-undirected-graph-having-unit-distance-cpp",
@@ -6334,7 +6334,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-4-shortest-path-problems-02-shortest-path-in-dag-cpp",
@@ -6356,7 +6356,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-4-shortest-path-problems-03-dijkstra-s-algorithm-cpp",
@@ -6378,7 +6378,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-4-shortest-path-problems-04-shortest-path-in-binary-matrix-cpp",
@@ -6400,7 +6400,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-4-shortest-path-problems-05-path-with-minimum-effort-cpp",
@@ -6422,7 +6422,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-4-shortest-path-problems-06-cheapest-flights-with-k-stops-cpp",
@@ -6444,7 +6444,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-4-shortest-path-problems-07-network-delay-time-cpp",
@@ -6466,7 +6466,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-4-shortest-path-problems-08-bellman-ford-algorithm-cpp",
@@ -6488,7 +6488,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-4-shortest-path-problems-09-floyd-warshall-algorithm-cpp",
@@ -6510,7 +6510,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-4-shortest-path-problems-10-find-city-with-smallest-number-of-neighbours-cpp",
@@ -6532,7 +6532,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-4-shortest-path-problems-11-number-of-ways-to-arrive-the-destination-with-minimum-distance-cpp",
@@ -6554,7 +6554,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-5-mst-problems-01-prim-s-algorithm-cpp",
@@ -6576,7 +6576,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-5-mst-problems-02-kruskal-s-algorithm-cpp",
@@ -6598,7 +6598,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-5-mst-problems-03-number-of-operations-to-make-network-cpp",
@@ -6620,7 +6620,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-5-mst-problems-04-most-stones-removed-cpp",
@@ -6642,7 +6642,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-5-mst-problems-05-account-merge-cpp",
@@ -6664,7 +6664,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-5-mst-problems-06-number-of-islands-2-cpp",
@@ -6686,7 +6686,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-5-mst-problems-07-making-large-island-cpp",
@@ -6708,7 +6708,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-5-mst-problems-08-swim-in-rising-water-cpp",
@@ -6730,7 +6730,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-6-other-algorithms-01-bridges-in-graph-cpp",
@@ -6752,7 +6752,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "13-graphs-6-other-algorithms-02-strongly-connected-components-cpp",
@@ -6774,7 +6774,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "graph-traversal"
   },
   {
     "id": "14-dynamic-programming-1-intro-to-dp-01-find-the-nth-fibonacci-number-cpp",
@@ -6796,7 +6796,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-2-1d-dp-01-climbing-stairs-cpp",
@@ -6818,7 +6818,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-2-1d-dp-02-frog-jump-cpp",
@@ -6840,7 +6840,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-2-1d-dp-03-frog-k-jumps-cpp",
@@ -6862,7 +6862,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-2-1d-dp-04-house-robber-cpp",
@@ -6884,7 +6884,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-2-1d-dp-05-house-robber-2-cpp",
@@ -6906,7 +6906,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-3-2d-dp-01-ninja-training-cpp",
@@ -6928,7 +6928,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-3-2d-dp-02-unique-paths-cpp",
@@ -6950,7 +6950,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-3-2d-dp-03-unique-paths-2-cpp",
@@ -6972,7 +6972,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-3-2d-dp-04-minimum-path-sum-cpp",
@@ -6994,7 +6994,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-3-2d-dp-05-minimum-path-in-triangle-cpp",
@@ -7016,7 +7016,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-3-2d-dp-06-minimum-falling-path-sum-cpp",
@@ -7038,7 +7038,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-4-dp-on-subsequences-01-subset-sum-equal-to-k-cpp",
@@ -7060,7 +7060,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-4-dp-on-subsequences-02-partition-array-in-two-equal-sum-subsets-cpp",
@@ -7082,7 +7082,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-4-dp-on-subsequences-03-minimum-sum-partition-cpp",
@@ -7104,7 +7104,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-4-dp-on-subsequences-04-count-number-of-subsets-with-sum-k-cpp",
@@ -7126,7 +7126,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-4-dp-on-subsequences-05-partition-with-given-difference-cpp",
@@ -7148,7 +7148,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-4-dp-on-subsequences-06-01-knapsack-cpp",
@@ -7170,7 +7170,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-4-dp-on-subsequences-07-coin-change-cpp",
@@ -7192,7 +7192,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-4-dp-on-subsequences-08-target-sum-cpp",
@@ -7214,7 +7214,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-4-dp-on-subsequences-09-coin-change-2-cpp",
@@ -7236,7 +7236,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-4-dp-on-subsequences-10-unbounded-knapsack-cpp",
@@ -7258,7 +7258,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-4-dp-on-subsequences-11-rod-cutting-problem-cpp",
@@ -7280,7 +7280,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-5-dp-on-strings-01-longest-common-subsequence-cpp",
@@ -7302,7 +7302,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-5-dp-on-strings-02-print-the-lcs-cpp",
@@ -7324,7 +7324,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-5-dp-on-strings-03-longest-common-substring-cpp",
@@ -7346,7 +7346,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "sliding-window"
   },
   {
     "id": "14-dynamic-programming-5-dp-on-strings-04-longest-palindromic-subsequence-cpp",
@@ -7368,7 +7368,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-5-dp-on-strings-05-minimum-steps-to-make-string-palindrome-cpp",
@@ -7390,7 +7390,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-5-dp-on-strings-06-minimum-steps-to-make-other-string-cpp",
@@ -7412,7 +7412,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-5-dp-on-strings-07-shortest-common-supersequence-cpp",
@@ -7434,7 +7434,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-5-dp-on-strings-08-distinct-subsequences-cpp",
@@ -7456,7 +7456,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-5-dp-on-strings-09-wildcard-matching-cpp",
@@ -7478,7 +7478,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-6-dp-on-stocks-01-best-time-to-buy-and-sell-stocks-cpp",
@@ -7500,7 +7500,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-6-dp-on-stocks-02-best-time-to-buy-and-sell-stock-2-cpp",
@@ -7522,7 +7522,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-6-dp-on-stocks-03-best-time-to-buy-and-sell-stock-upto-2-transaction-cpp",
@@ -7544,7 +7544,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-6-dp-on-stocks-04-best-time-to-buy-and-sell-stock-uoto-k-transaction-cpp",
@@ -7566,7 +7566,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-6-dp-on-stocks-05-buy-and-sell-stocks-with-cooldown-cpp",
@@ -7588,7 +7588,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-6-dp-on-stocks-06-buy-and-sell-stocks-with-transaction-fee-cpp",
@@ -7610,7 +7610,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-7-dp-on-lis-01-longest-increasing-subsequence-cpp",
@@ -7632,7 +7632,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-7-dp-on-lis-02-print-lis-cpp",
@@ -7654,7 +7654,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-7-dp-on-lis-03-largest-divisible-subset-cpp",
@@ -7676,7 +7676,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-7-dp-on-lis-04-longest-bitonic-subsequence-cpp",
@@ -7698,7 +7698,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-7-dp-on-lis-05-number-of-lis-cpp",
@@ -7720,7 +7720,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-8-dp-on-partition-01-mcm-cpp",
@@ -7742,7 +7742,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-8-dp-on-partition-02-minimum-cost-to-cut-stick-cpp",
@@ -7764,7 +7764,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-8-dp-on-partition-03-burst-ballons-cpp",
@@ -7786,7 +7786,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-8-dp-on-partition-05-palindorme-partionting-2-cpp",
@@ -7808,7 +7808,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-8-dp-on-partition-06-partition-array-for-maximum-sum-cpp",
@@ -7830,7 +7830,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-9-dp-on-squares-01-maximal-square-cpp",
@@ -7852,7 +7852,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "14-dynamic-programming-9-dp-on-squares-02-count-square-submatrices-cpp",
@@ -7874,7 +7874,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "dp-grid"
   },
   {
     "id": "15-tries-1-theory-01-implement-trie-prefix-tree-cpp",
@@ -7896,7 +7896,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "binary-tree"
   },
   {
     "id": "15-tries-2-problems-01-implement-trie-2-cpp",
@@ -7918,7 +7918,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "trie-prefix-tree"
   },
   {
     "id": "15-tries-2-problems-02-complete-string-cpp",
@@ -7940,7 +7940,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "trie-prefix-tree"
   },
   {
     "id": "15-tries-2-problems-03-count-distinct-subsitrings-cpp",
@@ -7962,7 +7962,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "trie-prefix-tree"
   },
   {
     "id": "15-tries-2-problems-04-bitwise-basic-operations-cpp",
@@ -7984,7 +7984,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "trie-prefix-tree"
   },
   {
     "id": "15-tries-2-problems-05-maximum-xor-of-two-numbers-cpp",
@@ -8006,7 +8006,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "trie-prefix-tree"
   },
   {
     "id": "16-strings-hard-hard-01-minimum-number-of-insertions-to-make-parenthesis-valid-cpp",
@@ -8028,7 +8028,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "string-matching-kmp"
   },
   {
     "id": "16-strings-hard-hard-02-count-and-say-cpp",
@@ -8050,7 +8050,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "string-matching-kmp"
   },
   {
     "id": "16-strings-hard-hard-03-kmp-or-z-string-matching-algo-cpp",
@@ -8072,7 +8072,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "string-matching-kmp"
   },
   {
     "id": "16-strings-hard-hard-04-longest-happy-prefix-cpp",
@@ -8094,7 +8094,7 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "string-matching-kmp"
   },
   {
     "id": "16-strings-hard-hard-05-shortest-palindrome-cpp",
@@ -8116,6 +8116,6 @@ window.PROBLEMS_DATA = [
     "hasBrute": false,
     "hasBetter": false,
     "hasOptimal": true,
-    "visualizationType": null
+    "visualizationType": "string-matching-kmp"
   }
 ];

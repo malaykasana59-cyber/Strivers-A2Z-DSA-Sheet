@@ -6,7 +6,15 @@ import {
   simulateTwoSum,
   simulateDutchFlag,
   simulateMajorityElement,
-  simulateArrayStepper
+  simulateArrayStepper,
+  simulateStringAlgo,
+  simulateRecursionTree,
+  simulateBitManipulation,
+  simulateHeapPriorityQueue,
+  simulateGreedyIntervals,
+  simulateTriePrefixTree,
+  simulateStringMatchingKmp,
+  simulateBinarySearchTree
 } from '../js/visualizer.js';
 
 describe('Algorithm Visualizer Engine', () => {
@@ -95,6 +103,96 @@ describe('Algorithm Visualizer Engine', () => {
       assert.equal(steps.length, nums.length + 2); // initial state + N items + completion step
       assert.equal(steps[1].currentIndex, 0);
       assert.equal(steps[steps.length - 1].isComplete, true);
+    });
+  });
+
+  describe('String Algorithm Simulation', () => {
+    it('verifies valid palindromes using two-pointer steps', () => {
+      const steps = simulateStringAlgo(['r', 'a', 'c', 'e', 'c', 'a', 'r']);
+      assert.ok(steps.length > 0);
+      const lastStep = steps[steps.length - 1];
+      assert.equal(lastStep.isComplete, true);
+      assert.equal(lastStep.metrics['Result'], 'Valid Palindrome');
+    });
+
+    it('detects character mismatch in asymmetric strings', () => {
+      const steps = simulateStringAlgo(['a', 'b', 'c', 'd']);
+      const mismatchStep = steps.find(s => s.phase === 'reset');
+      assert.ok(mismatchStep);
+      assert.equal(mismatchStep.metrics['Match'], 'MISMATCH');
+    });
+  });
+
+  describe('Recursion Decision Tree Simulation', () => {
+    it('generates decision tree steps for subsets backtracking', () => {
+      const steps = simulateRecursionTree([1, 2]);
+      assert.ok(steps.length >= 5);
+      const lastStep = steps[steps.length - 1];
+      assert.equal(lastStep.isComplete, true);
+      assert.equal(lastStep.data.type, 'tree');
+      assert.ok(lastStep.data.nodes.length > 0);
+    });
+  });
+
+  describe('Bit Manipulation Simulation', () => {
+    it('simulates 8-bit register inspection, mask and set bit operations', () => {
+      const steps = simulateBitManipulation(29, 3);
+      assert.ok(steps.length >= 5);
+      assert.equal(steps[0].data.array.length, 8);
+      const lastStep = steps[steps.length - 1];
+      assert.equal(lastStep.isComplete, true);
+      assert.equal(lastStep.metrics['Decimal N'], 29);
+      assert.equal(lastStep.metrics['Total Set Bits'], 4); // 29 = 16 + 8 + 4 + 1
+    });
+  });
+
+  describe('Heap & Priority Queue Simulation', () => {
+    it('simulates min-heap insertion and heapify-up swaps', () => {
+      const steps = simulateHeapPriorityQueue([10, 15, 20, 17, 25], 5);
+      assert.ok(steps.length >= 4);
+      const lastStep = steps[steps.length - 1];
+      assert.equal(lastStep.isComplete, true);
+      assert.equal(lastStep.metrics['Root Minimum'], 5);
+    });
+  });
+
+  describe('Greedy Intervals Simulation', () => {
+    it('greedily schedules non-overlapping intervals by finish times', () => {
+      const steps = simulateGreedyIntervals();
+      assert.ok(steps.length >= 6);
+      const lastStep = steps[steps.length - 1];
+      assert.equal(lastStep.isComplete, true);
+      assert.ok(lastStep.metrics['Max Meetings'] >= 3);
+    });
+  });
+
+  describe('Trie Prefix Tree Simulation', () => {
+    it('simulates word insertions and prefix queries', () => {
+      const steps = simulateTriePrefixTree(['app', 'apple', 'apt']);
+      assert.ok(steps.length >= 5);
+      const prefixStep = steps.find(s => s.metrics?.Query?.includes('startsWith'));
+      assert.ok(prefixStep);
+      assert.equal(prefixStep.metrics['Result'], 'FOUND');
+    });
+  });
+
+  describe('KMP String Matching Simulation', () => {
+    it('precomputes LPS array and steps through text pattern search', () => {
+      const steps = simulateStringMatchingKmp('ababcababa', 'ababa');
+      assert.ok(steps.length >= 4);
+      const matchStep = steps.find(s => s.metrics?.Result === 'SUCCESS');
+      assert.ok(matchStep);
+      assert.equal(matchStep.metrics['Pattern Match'], 'Index 5');
+    });
+  });
+
+  describe('Binary Search Tree Simulation', () => {
+    it('navigates left and right subtrees based on BST property', () => {
+      const steps = simulateBinarySearchTree(6);
+      assert.ok(steps.length >= 4);
+      const lastStep = steps[steps.length - 1];
+      assert.equal(lastStep.isComplete, true);
+      assert.match(lastStep.metrics['Path Traversed'], /8 → 3 → 6/);
     });
   });
 });

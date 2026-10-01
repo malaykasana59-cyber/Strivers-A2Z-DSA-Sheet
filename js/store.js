@@ -119,7 +119,9 @@ export class AppStore {
     } else {
       this.solvedSet.add(problemId);
     }
-    setStorageItem(STORAGE_KEYS.SOLVED, Array.from(this.solvedSet));
+    const arr = Array.from(this.solvedSet);
+    setStorageItem(STORAGE_KEYS.SOLVED, arr);
+    setStorageItem('takeuforward_solved', arr);
     return this.solvedSet.has(problemId);
   }
 
@@ -133,7 +135,9 @@ export class AppStore {
     } else {
       this.bookmarkSet.add(problemId);
     }
-    setStorageItem(STORAGE_KEYS.BOOKMARKS, Array.from(this.bookmarkSet));
+    const arr = Array.from(this.bookmarkSet);
+    setStorageItem(STORAGE_KEYS.BOOKMARKS, arr);
+    setStorageItem('takeuforward_bookmarked_ids', arr);
     return this.bookmarkSet.has(problemId);
   }
 
