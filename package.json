@@ -1,0 +1,21 @@
+{
+  "name": "takeuforward-for-free",
+  "version": "1.0.0",
+  "description": "Old style takeuforward style OG focused website with clean, zero bloatware DSA learning experience and interactive problem visualizers",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "build": "python3 scripts/build_data.py",
+    "start": "python3 -m http.server 8080"
+  },
+  "keywords": [
+    "dsa",
+    "takeuforward",
+    "algorithms",
+    "data-structures",
+    "striver",
+    "a2z-sheet"
+  ],
+  "author": "takeuforward-for-free",
+  "license": "MIT"
+}
